@@ -1,0 +1,5 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame name="EPFOptionsPanel" hidden="true">
+    <Size x="400" y="400"/>
+  </Frame>
+</Ui>

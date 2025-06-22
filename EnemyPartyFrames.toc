@@ -1,0 +1,6 @@
+## Interface: 100105
+## Title: EnemyPartyFrames
+## Notes: Custom enemy NPC party frames with priorities
+## Version: 1.0
+EnemyPartyFrames.lua
+EnemyPartyFrames.xml
