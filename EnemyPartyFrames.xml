@@ -1,0 +1,30 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Frame name="EPFOptionsPanel" parent="UIParent" hidden="true" frameStrata="HIGH" enableMouse="true" movable="true">
+    <Size x="400" y="200"/>
+    <Anchors>
+      <Anchor point="CENTER"/>
+    </Anchors>
+
+    <!-- Title -->
+    <FontString name="$parentTitle" inherits="GameFontNormalLarge" text="EnemyPartyFrames Options">
+      <Anchors>
+        <Anchor point="TOPLEFT" x="16" y="-16"/>
+      </Anchors>
+    </FontString>
+
+    <!-- Exact Match Checkbox -->
+    <CheckButton name="EPFOptionsPanelExactMatchCheckbox" inherits="InterfaceOptionsCheckButtonTemplate" text="Exact Match Priority" tooltip="Enable exact name matching for priority." >
+      <Anchors>
+        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="16" y="-50"/>
+      </Anchors>
+    </CheckButton>
+
+    <!-- Reset Button -->
+    <Button name="EPFOptionsPanelResetButton" inherits="UIPanelButtonTemplate" text="Reset Priorities" width="120" height="24">
+      <Anchors>
+        <Anchor point="TOPLEFT" relativePoint="TOPLEFT" x="16" y="-90"/>
+      </Anchors>
+    </Button>
+
+  </Frame>
+</Ui>

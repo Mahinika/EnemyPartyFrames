@@ -1,0 +1,8 @@
+## Interface: 110002
+## Title: EnemyPartyFrames
+## Author: YourNameOrAlias
+## Version: 1.1
+## Notes: Custom enemy NPC party frames with priorities and clickable targeting.
+## SavedVariables: EnemyPartyFramesDB
+EnemyPartyFrames.lua
+EnemyPartyFrames.xml
